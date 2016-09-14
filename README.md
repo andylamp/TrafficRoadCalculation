@@ -5,9 +5,9 @@ This is a solver for finding the shortest path to work taking in account the Tra
 the available roads have (based on their traffic levels). The software implements two algorithms in order
 to find a solution to the problem:
  
-   --> UCS: Uniform-Cost Search
+* UCS: Uniform-Cost Search
 
-   --> IDA*: Iterative Deepening A*
+* IDA*: Iterative Deepening A*
 
 The IDA* heuristic function is the UCS itself, resulting in a more Dijkstra-like algorithm for traversing 
 the graph. It also results in a much higher complexity of the IDA* algorithm while having little gain in 
